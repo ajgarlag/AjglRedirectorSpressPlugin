@@ -1,0 +1,27 @@
+{
+    "name": "ajgl/redirector-spress-plugin",
+    "type": "spress-plugin",
+    "description": "Seamlessly specify multiple redirections URLs for your pages and posts",
+    "keywords": ["spress", "plugin", "redirect", "redirector"],
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Antonio J. García Lagar",
+        "email": "aj@garcialagar.es",
+        "homepage": "http://aj.garcialagar.es",
+        "role": "developer"
+      }
+    ],
+    "autoload": {
+        "psr-4": { "Ajgl\\Spress\\Plugin\\Redirector\\": "src/" }
+    },
+    "require": {
+        "spress/spress-installer": "2.0.*"
+    },
+    "extra": {
+        "spress_class": "Ajgl\\Spress\\Plugin\\Redirector\\RedirectorPlugin",
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
